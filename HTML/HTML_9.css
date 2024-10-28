@@ -1,0 +1,23 @@
+.grid_main{
+    background-color: lightblue ;
+    padding: 10px;
+    margin : 500px;
+    height: 1000px;
+    display : grid;
+   
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.image{
+    background-color: aliceblue;
+    border : 1px solid tan;
+    padding : 20px;
+    height: 10%;
+    width : 50%;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}

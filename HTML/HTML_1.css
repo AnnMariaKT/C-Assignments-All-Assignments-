@@ -1,0 +1,32 @@
+
+    h1{
+    color :blue;    
+    font-size: 2em;
+    margin-bottom: 10px;
+
+    }
+
+    body{
+        background-color: beige;
+        font-family: 'Arial', sans-serif;
+        font-family: Arial, sans-serif;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bio {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+    }
+
+   
+
+    h2 {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+
+    

@@ -1,0 +1,25 @@
+h1{
+    color :beige;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: beige;
+        color: rgb(0, 0, 0);
+        line-height: 1.6;
+        padding: 20px;
+        text-align: center;
+    }
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f80c20;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
