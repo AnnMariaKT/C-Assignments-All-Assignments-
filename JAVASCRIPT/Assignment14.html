@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator</title>
+</head>
+
+<body>
+    <h1>Random Quote Generator</h1>
+    <p id="QuoteDisplay" onclick="Quote()">Click to change quote</p>
+    <button onclick="Quote()">Next Quote</button>
+   
+    <script>
+        var quotes = [
+            "Be yourself; everyone else is already taken.― Oscar Wilde",
+            "A room without books is like a body without a soul. ― Marcus Tullius Cicero",
+            "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe ― Albert Einstein",
+            "You only live once, but if you do it right, once is enough. ― Mae West"
+        ];
+
+        function Quote() {
+            var rand = Math.floor(Math.random() * quotes.length);
+            document.getElementById('QuoteDisplay').innerText = quotes[rand];
+        }
+    </script>
+</body>
+</html>

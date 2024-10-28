@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1> StopWatch</h1>
+
+
+    <p id="timer">00:00:00</p>
+    
+    <button onclick="Start_timer()">Start</button>
+    <button onclick="Stop_timer()">Stop</button>
+    <button onclick="Reset_timer()">Reset</button>
+    
+    <script>
+         
+           let hours = 0;
+           let minutes = 0;
+           let seconds = 0;
+        function updateTime(){
+           seconds++;
+           if(seconds===60)
+           {
+             minutes++;
+             seconds=0;
+           }
+           if(minutes===60)
+           {
+             hours++;
+             minutes=0;
+           }
+           document.getElementById('timer').textContent = 
+                String(hours).padStart(2, '0') + ":" + 
+                String(minutes).padStart(2, '0') + ":" + 
+                String(seconds).padStart(2, '0');
+        }        
+        function Start_timer() {
+            clearInterval(timer);
+            timer = setInterval(updateTime, 1000);
+            }
+          
+        function Stop_timer(){
+            clearInterval(timer);
+        }
+
+        function Reset_timer(){
+           
+            clearInterval(timer);
+            document.getElementById('timer').textContent = "00:00:00";
+        }
+        
+
+    </script>
+</body>
+
+</html>

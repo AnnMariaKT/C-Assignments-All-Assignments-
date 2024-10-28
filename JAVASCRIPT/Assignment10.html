@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+<style>
+h1{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+div{
+    justify-content: center;
+    width: 500px;
+    height: 150px;
+    margin: 20px;
+    background-color: beige;
+
+}
+button{
+    background-color: lightgreen;
+}
+</style>
+
+</head>
+
+<body>
+    <h1>Sum of Numbers</h1>
+    <div class = "box">
+
+    <label>Enter bill amount</label><br><br>
+    <input type="number" id="bill" placeholder="Actual bill amount">
+    <br>
+    <!-- <label>Enter tip percentage</label>
+    <input type="number" id="tipercentage" placeholder="Tip percentage">
+    <button onclick="calculatePecentage()">submit</button>
+    <p id="result1"></p> -->
+
+    <label>Select tip percentage</label><br>
+    <button onclick="calculatePecentage5()">5 %</button>
+    <button onclick="calculatePecentage7()">7 %</button>
+    <button onclick="calculatePecentage10()">10 %</button>
+    <button onclick="calculatePecentage15()">15 %</button>
+    <p id="result"></p>
+</div>
+    <script>
+        
+        function calculatePecentage5() {  
+            let amount = parseFloat(document.getElementById('bill').value);  
+            let tip = amount + (amount * (5/100));            
+            document.getElementById('result').textContent = "The Total bill is: " + tip ;
+        }
+
+        function calculatePecentage7() {  
+            let amount = parseFloat(document.getElementById('bill').value);  
+            let tip = amount + (amount * (7/100));            
+            document.getElementById('result').textContent = "The Total bill is: " + tip ;
+        }
+
+        function calculatePecentage10() {  
+            let amount = parseFloat(document.getElementById('bill').value);  
+            let tip = amount + (amount * (10/100));            
+            document.getElementById('result').textContent = "The Total bill is: " + tip ;
+        }
+
+        function calculatePecentage15() {  
+            let amount = parseFloat(document.getElementById('bill').value);  
+            let tip = amount + (amount * (15/100));            
+            document.getElementById('result').textContent = "The Total bill is: " + tip ;
+        }
+
+        // function calculatePecentage() {  
+        //     let amount = parseFloat(document.getElementById('bill').value);  
+        //     let Tip_percent = parseFloat(document.getElementById('tipercentage').value);  
+        //     let tip = amount + (amount * (Tip_percent/100));            
+        //     document.getElementById('result1').textContent = "The Total bill is: " + tip ;
+        // }
+    </script>
+</body>
+
+</html>

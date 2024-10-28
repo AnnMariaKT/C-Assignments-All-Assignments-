@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1>Basic To-Do List</h1>
+
+    <input type="text" id="task1" placeholder="Enter task">
+    <br>
+
+    <button onclick="Todolist()">To-do</button>
+    <ul id = "EnterTask"></ul>
+
+    <script>
+        function Todolist() 
+        {
+            var task = document.getElementById('task1').value;
+            if(task)
+            {
+                var li = document.createElement('li');
+                li.textContent = task;
+
+                document.getElementById('EnterTask').appendChild(li);
+
+                document.getElementById('EnterTask').value = '';
+ 
+            }
+
+            else
+            {
+                alert('Enter any task. ');
+            }
+        }
+    </script>
+</body>
+
+</html>

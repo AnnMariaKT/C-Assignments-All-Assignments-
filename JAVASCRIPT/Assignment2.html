@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1>Check odd or even</h1>
+
+    <input type="number" id="num1" placeholder="Enter number">
+    <br>
+
+    <button onclick="oddoreven()">Check odd or even</button>
+    <p id="result"></p>
+    
+    <script>
+        function oddoreven() {
+            let number1 = parseFloat(document.getElementById('num1').value);
+            
+            if (number1%2===0)
+            {
+                document.getElementById('result').textContent = "The number is even " + number1;
+ 
+            }
+            else
+            {
+                document.getElementById('result').textContent = "The number is odd " + number1;
+
+            }
+        }
+    </script>
+</body>
+
+</html>

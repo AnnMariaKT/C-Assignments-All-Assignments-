@@ -1,0 +1,79 @@
+ <html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+
+    <input type="number" id="num1" placeholder="First number">
+    <br>
+
+    <input type="number" id="num2" placeholder="Second number">
+    <br>
+
+    <button onclick="CalculateAdd()">Calculate Sum </button>
+    <p id="resultadd"></p>
+
+    <button onclick="CalculateDiff()">Calculate Difference</button>
+    <p id="resultdif"></p>
+
+    <button onclick="CalculateMul()">Calculate Product</button>
+    <p id="resultmul"></p>
+
+    <button onclick="CalculateDiv()">Calculate quotient</button>
+    <p id="resultdiv"></p>
+    
+    <script>
+        function CalculateAdd() {
+            let number1 = parseFloat(document.getElementById('num1').value);
+            let number2 = parseFloat(document.getElementById('num2').value);
+            
+            let ans = number1 + number2;
+            
+            document.getElementById('resultadd').textContent = "The sum is: " + ans;
+        }
+    
+       function CalculateDiff() {
+     
+            let number1 = parseFloat(document.getElementById('num1').value);
+            let number2 = parseFloat(document.getElementById('num2').value);
+            
+            let ans = number1 - number2;
+            
+            document.getElementById('resultdiff').textContent = "The difference is: " + ans;
+        }
+    
+       function CalculateMul() {
+            let number1 = parseFloat(document.getElementById('num1').value);
+            let number2 = parseFloat(document.getElementById('num2').value);
+            
+            let ans = number1 * number2;
+            
+            document.getElementById('resultmul').textContent = "The product is: " + ans;
+        }
+    
+       function CalculateDiv() {
+            let number1 = parseFloat(document.getElementById('num1').value);
+            let number2 = parseFloat(document.getElementById('num2').value);
+            
+            let ans = number1 / number2;
+            
+            document.getElementById('resultdiv').textContent = "The quotient is: " + ans;
+        }
+       
+    
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+ 

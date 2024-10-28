@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1>Dynamic Color Changer</h1>
+
+    <input type="color" id="Colorchange">
+    <br>
+
+    <script>
+        let colorPicker = document.getElementById('color-picker');
+
+        colorPicker.addEventListener('input', () => {
+        document.body.style.backgroundColor = colorPicker.value;
+        }
+        
+    );
+    </script>
+</body>
+
+</html>

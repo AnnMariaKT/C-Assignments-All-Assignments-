@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <h1>Image Carousel</h1>
+    
+    <div id="Image">
+        <img id="carouselImage" src="images/1.jpg" alt="">
+    </div>
+    <button onclick="next()" id="nextimage">Next</button>
+
+    <button onclick="prev()" id="previmage">Previous</button>
+    <p id="result"></p>
+
+    <script>
+        var index = 0;
+        var img = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg"];
+
+        function displayImage() {
+            document.getElementById('carouselImage').src = img[index];
+        }
+
+        function next() {
+            index++;
+            if (index >= img.length) {
+                index = 0; 
+            }
+            displayImage(); 
+        }
+
+        function prev() {
+            index--;
+            if (index < 0) {
+                index = img.length - 1; 
+            }
+            displayImage(); 
+        }
+
+        displayImage();
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz Application</title>
+</head>
+<body>
+    <div class="Quiz-Container">
+        <h1>Create a Simple Quiz Application</h1>
+        <form id="Quiz_MCQ">
+            <div class="Quiz"> 
+                <p>1. What is the world's fastest bird?</p>
+                <label><input type="radio" name="q1" value="wrong"> Eagle</label><br>
+                <label><input type="radio" name="q1" value="correct"> Peregrine falcon</label><br>
+                <label><input type="radio" name="q1" value="wrong"> Ostrich</label><br>
+            </div>
+
+            <div class="Quiz"> 
+                <p>2. What is a group of crows called?</p>
+                <label><input type="radio" name="q2" value="wrong"> School</label><br>
+                <label><input type="radio" name="q2" value="correct"> A murder</label><br>
+                <label><input type="radio" name="q2" value="wrong"> Heard</label><br>
+            </div>
+
+            <div class="Quiz"> 
+                <p>3. How many hearts does an octopus have?</p>
+                <label><input type="radio" name="q3" value="wrong"> Zero</label><br>
+                <label><input type="radio" name="q3" value="correct"> Three</label><br>
+                <label><input type="radio" name="q3" value="wrong"> Four</label><br>
+            </div>
+        
+            <div class="Quiz"> 
+                <p>4. What is a group of pandas known as?</p>
+                <label><input type="radio" name="q4" value="wrong"> A Pride</label><br>
+                <label><input type="radio" name="q4" value="correct"> An embarrassment</label><br>
+                <label><input type="radio" name="q4" value="wrong"> A flock</label><br>
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    
+    <script>
+        const form = document.getElementById("Quiz_MCQ");
+        const resultDiv = document.getElementById("result");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+            let score = 0;
+            const totalQuestions = 4;
+
+            const answers = document.querySelectorAll('input[type="radio"]:checked');
+            answers.forEach(answer => {
+                if (answer.value === 'correct') {
+                    
+                    score++;
+                }
+            });
+
+            resultDiv.textContent = "Final Score: " + score + "/" + totalQuestions;
+            resultDiv.style.color = score === totalQuestions ? "green" : "red";
+            if (score !== totalQuestions) {
+                resultDiv.textContent += " - Try again!";
+            }
+        });
+    </script>
+</body>
+</html>
