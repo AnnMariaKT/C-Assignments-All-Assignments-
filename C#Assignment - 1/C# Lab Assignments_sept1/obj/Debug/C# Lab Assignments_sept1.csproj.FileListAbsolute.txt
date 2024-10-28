@@ -1,0 +1,7 @@
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\bin\Debug\C# Lab Assignments_sept1.exe.config
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\bin\Debug\C# Lab Assignments_sept1.exe
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\bin\Debug\C# Lab Assignments_sept1.pdb
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\obj\Debug\C# Lab Assignments_sept1.csproj.AssemblyReference.cache
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\obj\Debug\C# Lab Assignments_sept1.csproj.CoreCompileInputs.cache
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\obj\Debug\C# Lab Assignments_sept1.exe
+C:\Users\hp lap\source\repos\C# Lab Assignments_sept1\obj\Debug\C# Lab Assignments_sept1.pdb
