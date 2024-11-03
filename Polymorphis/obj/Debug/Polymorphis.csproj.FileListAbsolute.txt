@@ -1,0 +1,7 @@
+C:\Users\hp lap\source\repos\Polymorphis\bin\Debug\Polymorphis.exe.config
+C:\Users\hp lap\source\repos\Polymorphis\bin\Debug\Polymorphis.exe
+C:\Users\hp lap\source\repos\Polymorphis\bin\Debug\Polymorphis.pdb
+C:\Users\hp lap\source\repos\Polymorphis\obj\Debug\Polymorphis.csproj.AssemblyReference.cache
+C:\Users\hp lap\source\repos\Polymorphis\obj\Debug\Polymorphis.csproj.CoreCompileInputs.cache
+C:\Users\hp lap\source\repos\Polymorphis\obj\Debug\Polymorphis.exe
+C:\Users\hp lap\source\repos\Polymorphis\obj\Debug\Polymorphis.pdb
