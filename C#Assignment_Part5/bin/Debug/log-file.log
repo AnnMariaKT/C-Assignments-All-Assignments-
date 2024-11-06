@@ -1,0 +1,4 @@
+2024-11-04 17:45:31,466 [1] ERROR C_Assignment_Part5.Loggerr - 
+Attempted to divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at C_Assignment_Part5.LoggingExample.Divide(Int32 a, Int32 b) in C:\Users\hp lap\source\repos\C#Assignment_Part5\Log4netAssignment.cs:line 19

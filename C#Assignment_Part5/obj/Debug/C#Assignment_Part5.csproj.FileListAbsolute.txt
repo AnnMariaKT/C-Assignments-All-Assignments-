@@ -1,0 +1,11 @@
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\C#Assignment_Part5.exe.config
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\C#Assignment_Part5.exe
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\C#Assignment_Part5.pdb
+C:\Users\hp lap\source\repos\C#Assignment_Part5\obj\Debug\C#Assignment_Part5.csproj.AssemblyReference.cache
+C:\Users\hp lap\source\repos\C#Assignment_Part5\obj\Debug\C#Assignment_Part5.csproj.CoreCompileInputs.cache
+C:\Users\hp lap\source\repos\C#Assignment_Part5\obj\Debug\C#Assignment_Part5.exe
+C:\Users\hp lap\source\repos\C#Assignment_Part5\obj\Debug\C#Assignment_Part5.pdb
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\log4net.dll
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\log4net.pdb
+C:\Users\hp lap\source\repos\C#Assignment_Part5\bin\Debug\log4net.xml
+C:\Users\hp lap\source\repos\C#Assignment_Part5\obj\Debug\C#Assign.CD31C385.Up2Date
